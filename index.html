@@ -9,6 +9,18 @@
 </head>
 <body>
     <canvas id="canvas1"></canvas>
+    <div id="controls">
+        <button id="randomizeButton">Randomize!</button>
+        <div>
+            <input id="spread" type="range" min="0.1" max="3.1" step="0.1" value="1">
+            <label for="spread">Spread: </label>
+        </div>
+        <div>
+            <input id="sides" type="range" min="2" max="15" step="1" value="5">
+            <label for="sides">Sides: </label>
+        </div>
+        <button id="resetButton">Reset</button>
+    </div>
     <script src="script.js"></script>
 </body>
 </html>
